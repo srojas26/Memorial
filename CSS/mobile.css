@@ -1,0 +1,36 @@
+.showcase-heading {
+  font-size: 2.5rem;
+}
+
+
+#about {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 1rem;
+}
+
+.passions {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media only screen and (max-width: 600px) {
+  .passions {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .showcase-heading {
+    font-size: 2rem;
+  }
+}
